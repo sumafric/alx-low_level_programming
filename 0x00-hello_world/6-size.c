@@ -1,19 +1,21 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main -Entry point
  *
- * Description: 'Main is the entry point'
- *
- * Return: always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int i;
-	double d;
-	char c;
+	char acharacter;
+	int ainteger;
+	long along;
+	long long alonglong;
+	float afloat;
 
-	printf("The size of an int is: %lu.\n", (unsigned long)sizeof(i));
-	printf("The size of a double is: %lu.\n", (unsigned long)sizeof(d));
-	printf("The size of a char is: %lu.\n", (unsigned long)sizeof(c));
+	printf("Size of a char: %lu byte(s)\n", sizeof(acharacter));
+	printf("Size of an int: %lu byte(s)\n", sizeof(ainterger));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(along));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(alonglong));
+	printf("Size of a float: %lu byte(s)\n", sizeof(afloat));
 	return (0);
 }
