@@ -12,6 +12,7 @@ int main(void)
 	b = '9';
 	c = ',';
 	d = ' ';
+
 	while (a <= b)
 	{
 		if (a < b)
