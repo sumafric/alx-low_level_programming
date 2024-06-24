@@ -6,26 +6,17 @@
  */
 int main(void)
 {
-	int a, b, c, d;
+	int d;
 
-	a = '0';
-	b = '9';
-	c = ',';
-	d = ' ';
-
-	while (a <= b)
+	for (d = '0'; d <= '9'; d++)
 	{
-		if (a < b)
-		{
-			putchar(a);
-			putchar(c);
-		}
-		else
-		{
-			putchar(a);
-		}
-		putchar(d);
-		a++;
+	putchar(d);
+	if (d != '9')
+	{
+	putchar(',');
+	putchar(' ');
 	}
+	}
+	putchar('\n');
 	return (0);
 }
