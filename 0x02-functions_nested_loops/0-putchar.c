@@ -1,18 +1,10 @@
-#include "main.h"
+#include <unistd.h>
 /**
- * main - Entry point
+ * _putchar - writes c to stdout
  *
- * Return: 0 (success)
+ * Return: 1 (success)
  */
-int main(void)
+int _putchar(char c)
 {
-	int a;
-	char b[] = "_putchar";
-
-	for (a = 0; a < 8; a++)
-	{
-		_putchar(b[a]);
-	}
-		_putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
