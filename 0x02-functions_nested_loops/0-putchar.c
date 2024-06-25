@@ -11,7 +11,7 @@ int main(void)
 
 	for (a = 0; a < 8; a++)
 	{
-		_putchar(b[i]);
+		_putchar(b[a]);
 	}
 		_putchar('\n');
 	return (0);
