@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * _isupper - Check whether the Alphabet is uppercase
  * @c: Variable text
