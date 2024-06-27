@@ -2,20 +2,13 @@ nclude "main.h"
 /**
  * _isupper - Check whether the Alphabet is uppercase
  * @c: Variable text
- * Return: 0
+ * Return: 1 for uppercase o for anything else
  */
 int _isupper(int c)
 {
-	char uppercase = 'A';
-	int isupper = 0;
-
-	for (; uppercase <= 'Z'; uppercase++)
+	if (c >= 65 && c <= 98)
 	{
-		if (c == uppercase)
-		{
-			isupper = 1;
-			break;
-		}
+	return (1);
 	}
-	return (isupper);
+	return (0);
 }
