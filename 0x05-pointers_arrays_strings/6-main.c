@@ -8,7 +8,7 @@ int main(void)
 {
 	char *str;
 
-	str = "Half the lies they tell about me aren't true";
+	str = "Lorem ipsum half the lies they tell about me aren't true.\0Holberton";
 	puts2(str);
 	return (0);
 }
