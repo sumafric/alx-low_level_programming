@@ -4,15 +4,20 @@
  * @num: Given integer
  * Return: Last digit of the given integer
  */
-int print_last_digit(int num)
+int print_last_digit(int a)
 {
-	int lastDigit;
-
-	if (num < 0)
+	if (a < 0)
 	{
-		num = -num;
+		a = -(a % 10);
 	}
-	lastDigit = num % 10;
-	_putchar(lastDigit + '0');
-	return (lastDigit);
+	else if (a > 0)
+	{
+		a = a % 10;
+	}
+	else
+	{
+		a = 0;
+	}
+	_putchar(a + '0');
+	return (a);
 }
