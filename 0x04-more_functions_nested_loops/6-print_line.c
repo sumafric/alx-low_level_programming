@@ -2,8 +2,7 @@
 /**
  * print_line - write a function that draws a line
  *
- * @n: int 
- *
+ * @n: int
  * Return: void
  */
 void print_line(int n)
