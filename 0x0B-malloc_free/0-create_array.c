@@ -5,7 +5,7 @@
  * initializes it with a specific char.
  *@size: Size of the array
  *@c: Character to insert
- *Return: NULL if size is zero 
+ *Return: NULL if size is zero
  */
 
 char *create_array(unsigned int size, char c)
