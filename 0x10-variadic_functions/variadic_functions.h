@@ -6,7 +6,7 @@
 
 /**
  * struct printer - structure for printing data
- * @type: data type to print
+ * @symbol: symbol representing data type to print
  * @print: function pointer to the print function
  */
 
