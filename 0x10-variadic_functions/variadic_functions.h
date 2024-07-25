@@ -4,6 +4,12 @@
 #include <stdarg.h>
 #include <stdio.h>
 
+/**
+ * struct printer - structure for printing data
+ * @type: data type to print
+ * @print: function pointer to the print function
+ */
+
 typedef struct printer
 {
 char *symbol;
