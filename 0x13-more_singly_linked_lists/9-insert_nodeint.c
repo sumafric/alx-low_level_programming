@@ -37,3 +37,23 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	}
 	return (new);
 }
+/**
+ * listint_len - Return number of elements
+ * @h: Head pointer
+ *
+ * Return: Number of elements
+ */
+size_t listint_len(const listint_t *h)
+{
+	size_t count = 0;
+
+	if (h != NULL)
+	{
+		while (h != NULL)
+		{
+			count++;
+			h = h->next;
+		}
+	}
+	return (count);
+}
